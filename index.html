@@ -51,3 +51,4 @@
         this.y += this.speedY;
 
         // Bounce off the walls
+        if (this.x - this.radius < 0 || this.x + this.radius > canvas.width) {
